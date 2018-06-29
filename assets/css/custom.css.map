@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACN,UAAU,ECAO,OAAkB;EDCnC,cAAc,ECCS,IAAI;EDA3B,UAAU,ECCS,IAAI;EDAvB,aAAa,ECCE,GAAG",
+"sources": ["../scss/componets/_container.scss","../scss/base/_variables.scss"],
+"names": [],
+"file": "custom.css"
+}
