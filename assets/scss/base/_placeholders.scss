@@ -1,3 +1,12 @@
 %standard-m-p{
-    
+    text-align: center;
+   padding-top: 12px;
+   padding-left: 12px; 
+}
+
+%inline-list{
+    li{
+        display: inline-block;
+        margin-right: 10px;
+    }
 }

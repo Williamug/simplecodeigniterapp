@@ -16,15 +16,25 @@
 			$this->blog_model->mydb();
 
 			$data['page_title'] = 'Home';
-			$data['page_heading'] = 'Welcome to CiTodo List App';
+			$data['page_heading'] = 'Welcome to CiTO List App';
+			$data['page_discription'] = 'This application has been created using codeIgniter Framework with Bootstrap and Sass';
 			$data['todo_list'] = array(
+				'OceanCode',
 				'Clean house',
 				'Call mom',
 				'Run Errands',
-				'Home joy'	
+				'Home joy',
+				'Dog in the field',
+				'Google assistant',
+				'Machine Learning',
+				'AllSchool Academy',
+					
 			);
 
+			$this->load->view('templates/header', $data);
+			$this->load->view('templates/nav', $data);
 			$this->load->view('blogview', $data);
+			$this->load->view('templates/footer', $data);
 		}
 
 		public function comments(){

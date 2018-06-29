@@ -5,3 +5,17 @@
     border-radius: $container-radius;
 
 }
+h1{
+    @extend %standard-m-p;
+}
+p{
+    @extend %standard-m-p;
+}
+
+footer{
+    @extend %standard-m-p;
+} 
+
+a{
+    color: $link-color;
+}

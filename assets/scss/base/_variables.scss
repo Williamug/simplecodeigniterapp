@@ -1,6 +1,13 @@
-// application cariables
+// container
 $container-bg-color: rgb(233, 231, 231);
-
 $container-bottom-padding: 40px; 
 $container-top-margin: 20px;
 $container-radius: 8px;
+
+// links
+$link-color: rgb(32, 31, 31);
+
+// navbar
+$nav-bg-color: $container-bg-color;
+$nav-text-color: rgb(15, 15, 15);
+$nav-link-color: #666;

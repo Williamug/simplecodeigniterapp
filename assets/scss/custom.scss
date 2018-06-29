@@ -1,4 +1,8 @@
 // This is a sass file
 @import 'base/variables';
+@import 'base/mixins';
+@import 'base/placeholders';
+
 
 @import 'componets/container';
+@import 'componets/nav';
